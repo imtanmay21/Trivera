@@ -1,0 +1,59 @@
+.hero h1 {
+    font-size: 4rem;
+    width: 60%;
+    margin: 3rem 0;
+}
+
+.hero h3 {
+    font-size: 2rem;
+}
+
+.buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button {
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    font-family: 'Open Sans';
+    font-size: 1.1rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 13rem;
+    padding: 1.5rem 0;
+    transition: all 0.2s ease-out;
+}
+
+.buttons button:hover {
+     background: #fff;
+     color: #B980F0;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .hero h1 {
+        width: 100%;
+        font-size: 2.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .buttons button {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+        width: 10rem;
+    }
+
+}

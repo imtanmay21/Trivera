@@ -1,0 +1,24 @@
+.quiz-score {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-score h1 {
+    font-size: 3rem;
+}
+
+.score {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 45px;
+}
+
+.quiz-score i {
+    font-size: 7rem;
+    margin-top: 2rem;
+}

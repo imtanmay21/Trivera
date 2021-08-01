@@ -1,0 +1,99 @@
+.login {
+    height: 100%;
+    display: flex;
+}
+
+.login-form {
+    height: 100vh;
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+}
+
+.login-form form {
+    width: 100%;
+}
+
+.login-form form > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form form > div > label {
+    font-size: 1.2rem;
+}
+
+.login-form form > div > input {
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 1rem;
+    padding: 0.7rem 0;
+    margin-bottom: 0.4rem;
+    outline: none;
+}
+
+.login-form form > div > p {
+    font-size: 0.8rem;
+    color: #F8485E;
+    margin-bottom: 3.8rem;
+}
+
+.login-form button {
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-out;
+}
+
+.login-form button:hover {
+    opacity: 0.9;
+}
+
+.login-form form > div > button + p {
+    text-align: center;
+    color: #fff;
+}
+
+.login-form form > div > button + p > span {
+    cursor: pointer;
+    color: #00C1D4;
+}
+
+.login-form form > div > button + p > span:hover {
+    border-bottom: #00C1D4 1px solid;
+}
+
+.showcase {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase h1 {
+    font-size: 3rem;
+}
+
+.showcase img {
+    height: 35rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .login-form {
+        flex: 1;
+    }
+
+    .showcase {
+        display: none;
+    }
+}

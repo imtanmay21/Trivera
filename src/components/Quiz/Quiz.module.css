@@ -1,0 +1,85 @@
+.quiz {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz > div {
+    width: 100%;
+}
+
+.quiz button {
+    cursor: pointer;
+    width: 10rem;
+    padding: 2rem 0;
+    border: none;
+    border-radius: 45px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    transition: all 0.4s ease;
+}
+
+.quiz button:hover {
+    background: #fff;
+    color: #B980F0;
+}
+
+.quiz h1 {
+    font-size: 2rem;
+}
+
+.quiz ul {
+    list-style: none;
+}
+
+.quiz ul li {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.5);    
+    transition: all 0.2s ease-out;
+}
+
+.quiz ul li:hover {
+    background: #fff;
+    color: #B980F0;
+}
+
+.quiz ul li.correct {
+    color: #66DE93;
+    background-color: #fff;
+}
+
+.quiz ul li.wrong {
+    color: #FF616D;
+    background-color: #fff;
+}
+
+.quiz ul + button {
+    margin-top: 1rem;
+    border-radius: 0;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .quiz button {
+        font-size: 1rem;
+        padding: 1.5rem 0;
+    }
+
+    .quiz h1 {
+        font-size: 1.5rem;
+    }
+
+    .quiz ul li {
+        font-size: 1rem;
+    }
+
+}

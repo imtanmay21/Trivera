@@ -1,0 +1,21 @@
+.App {
+  color: #fff;
+  height: 100vh;
+  overflow: auto;
+  background: url('./img/main-bg.jpeg') center center/cover;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .container {
+    max-width: 340px;
+  }
+
+}
