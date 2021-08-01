@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Trivera/static/css/main.d6213401.chunk.css",
+    "main.js": "/Trivera/static/js/main.4786c9ca.chunk.js",
+    "main.js.map": "/Trivera/static/js/main.4786c9ca.chunk.js.map",
+    "runtime-main.js": "/Trivera/static/js/runtime-main.4265832b.js",
+    "runtime-main.js.map": "/Trivera/static/js/runtime-main.4265832b.js.map",
+    "static/js/2.b96803db.chunk.js": "/Trivera/static/js/2.b96803db.chunk.js",
+    "static/js/2.b96803db.chunk.js.map": "/Trivera/static/js/2.b96803db.chunk.js.map",
+    "index.html": "/Trivera/index.html",
+    "static/css/main.d6213401.chunk.css.map": "/Trivera/static/css/main.d6213401.chunk.css.map",
+    "static/js/2.b96803db.chunk.js.LICENSE.txt": "/Trivera/static/js/2.b96803db.chunk.js.LICENSE.txt",
+    "static/media/showcase-main.bdb6a35e.png": "/Trivera/static/media/showcase-main.bdb6a35e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4265832b.js",
+    "static/js/2.b96803db.chunk.js",
+    "static/css/main.d6213401.chunk.css",
+    "static/js/main.4786c9ca.chunk.js"
+  ]
+}
